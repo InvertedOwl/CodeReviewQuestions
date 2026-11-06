@@ -1,69 +1,53 @@
 
-# Assignment 3b
-## Don't Play With Mathes - Dr. Doofenlittle
-
-**Instructions:**  General instructions for both tasks
-- Ask if student wants a white board to explain topics
-- Ask if student used AI
-
-*Task 1:* **5** questions Total
-*Task 2:* **5** questions Total
+# Assignment 4b
+## Chessmate - Patterns
+*Task 1:* **6** questions Total
+*Task 2:* **6** questions Total
 
 ---
 
-# Task 1: Don't Play With Mathes
-## Task 1 – Section 0
+
+# Task 1: Chessmate
+## Describe Core Concepts
 
 > **Reviewer Info**
-> - **Concepts**: Objects, Lists, Loops
+> - **Concepts**: Defaults Values, For loops, Multi-file Coding
 > - **Required:** Ask **2** Questions
-
-- What is Task 1 supposed to do?
-	- Follow up question 1
-	- Follow up question 2
-- What is Task 1 supposed to do?
-	- Follow up question 1
-- What is Task 1 supposed to do?
-- What is Task 1 supposed to do?
-	- Follow up question 1
+> - **Ask:** *Did you use AI for this task?*
+- What is empty string defaulting used for. 
+- What happens to the chessboard when the width is different than the height?
+- What are the if statements doing in the starter code?
   
-## Task 1 – Section 1
+## Describe Your Solution
 
 > **Reviewer Info**
-> -  **Context:** Example context
+> -  **Context:** Open Design Document
 > -  **Required:** Ask **2** Questions
 
-- What is Task 1 supposed to do?
-	- Follow up question 1
-	- Follow up question 2
-- What is Task 1 supposed to do?
-	- Follow up question 1
-- What is Task 1 supposed to do?
-- What is Task 1 supposed to do?
-	- Follow up question 1 
+- How did you make sure you only use *draw_rectangle* only once when drawing tiles?
+- What paramaters are updated between each call to *draw_all_rectangles* to draw the tiles?
+	- How do you calculate the parameters?
+- How did you create the black and white chessboard pattern?
+- How do you set the stroke and fill in *draw_rectangle*?
 
-## Task 1 – Section 2
+## Explain your code
 
 > **Reviewer Info**
-> -  **Context:** Example context
+> -  **Context:** Open code
 > -  **Required:** Ask **2** Questions
+> -  **Coach Instruction:** Pick section of design document and ask the student to point to where the section is in the code
 
-  
-- What is Task 1 supposed to do?
-	- Follow up question 1
-	- Follow up question 2
-- What is Task 1 supposed to do?
-	- Follow up question 1
-- What is Task 1 supposed to do?
-- What is Task 1 supposed to do?
-	- Follow up question 1
+- Show me where you use *add_poly_point*.
+- If you were asked to rotate between 3 colors instead of 2, what would need to change in your code to accomplish that?
+- Show me how you calculate the width and height of each rectangle.
+- Explain how you avoid using global variables in *chessboard\.py*
 
 
-| # | Description | Input | Expected output |
-|  ---  |  ---  |  ---  |  ---  |
-| A-1 | Case 1 | 1956 | Leap year |
-| A-2 | Case 2 | 2025 | Leap year |
-| A-3 | Fail | 2026 | Not leap year |
+#### Test Data
+| Description  | start_x| start_y| width| height |
+|  ---         |  --- |  --- |  --- |  --- |
+| Normal       | 50 | 50 | 400 | 300 |
+| Empty String | 100 | 100 | " " | " "    |
   
 
 ---
