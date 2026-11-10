@@ -1,44 +1,33 @@
 
 # Assignment 4b
 ## Chessmate - Drawly Patterns
-<!-- TODO: Set to accurate values/reevaluate -->
-*Task 1:* **6** questions Total<br>
-*Task 2:* **6** questions Total
+Aim for 15 minutes.
 
 ---
 
 
-# Task 1: Chessmate
-## Describe Core Concepts
-
-> **Reviewer Info**
-> - **Concepts**: Defaults Values, For loops, Multi-file Coding
-> - **Required:** Ask **2** Questions
-> - **Ask:** *Did you use AI for this task?*
-- What is empty string defaulting used for. 
-- What happens to the chessboard when the width is different than the height?
-- What do the if statements do in the starter code.
-  
-## Describe Your Solution
+## Task 1: Chessmate
+### Describe Core Concepts
 
 > **Reviewer Info**
 > -  **Context:** Open Design Document
-> -  **Required:** Ask **2** Questions
+> - **Concepts**: Defaults Values, Multi-file Coding
+> - **Ask:** *Did you use AI for this task?*
+- What happens when a user does not enter a value when creating the chessboard?
+- What happens to the chessboard when the width is different than the height?
+- What do the if statements do in the starter code.
+  
+### Describe Your Solution
 
 - How did you make sure you only use *draw_rectangle* once when drawing tiles?
-- What paramaters are updated between each call to *draw_rectangle* to draw the tiles?
-	- How do you calculate the parameters?
-- How do you aternate the black and white tiles?
-- How do you set the stroke and fill in *draw_rectangle*?
+- How do you calculate the location of each tile?
+- How do you alternate the black and white tiles?
 
-## Explain your code
-
+### Explain your code
 > **Reviewer Info**
 > -  **Context:** Open code
-> -  **Required:** Ask **2** Questions
 > -  **Coach Instruction:** Pick section of design document and ask the student to point to where the section is in the code
 
-- Show me where you use *add_poly_point*.
 - If you were asked to rotate between 3 colors instead of 2, what would need to change in your code to accomplish that?
 - Show me how you calculate the width and height of each rectangle.
 - Explain how you avoid using global variables in *chessboard\.py*
@@ -48,18 +37,19 @@
 | Description  | start_x| start_y| width| height |
 |  ---         |  --- |  --- |  --- |  --- |
 | Normal       | 50 | 50 | 400 | 300 |
-| Empty String | 100 | 100 | " " | " "    |
+| Half Empty       | 50 | 50 | None | 300 |
+| Empty String | 100 | 100 | None | None    |
   
 
 ---
 
   
 
-# Task 2: Drawly Patterns
-## Describe Core Concepts
+## Task 2: Drawly Patterns
+### Describe Core Concepts
 > **Reviewer Info**
+> -  **Context:** Open Design Document
 > - **Concepts**: For loops, Multi-file Coding
-> - **Required:** Ask **2** Questions
 > - **Ask:** *Did you use AI for this task?*
 - List the 3 modes and what each mode does.
 	- How does the user select each mode?
@@ -69,32 +59,20 @@
 
   
 
-## Describe Your Solution
+### Describe Your Solution
 
-> **Reviewer Info**
-> -  **Context:** Open Design Document
-> -  **Required:** Ask **2** Questions
-- What should *get_distance_point* do?
-	- How do you use the output of *get_distance_point*?
-- Explain how *task2\.py* chooses which pattern function to call.
+- How do you use the output of *get_distance_point*?
 - For the rectangle pattern, how do you determine the rotation of each rectangle.
-- For the circle pattern, how do you determine where each circle is centered?
-- For the super pattern, how do you randomize whether you draw a circle or rectangle pattern
-- What does *set_random_color* do?
-	- How do you use *set_random_color*?
+- How do you choose a random color for each shape?
 
-## Explain your code
+### Explain your code
 
 > **Reviewer Info**
 > -  **Context:** Open code
-> -  **Required:** Ask **2** Questions
 > -  **Coach Instruction:** Pick section of design document and ask the student to point to where the section is in the code
 - What does the program do if the Count is set to *0*
-- Show me where you use the offset parameter.
-- For the rectangle pattern, where is the rotation parameter used?
-- Show me where *set_random_color* is used.
-- For the Super Pattern, how do you randomize the parameters for the patterns
-	- How do you make sure the pattern shows on screen?
+- For the rectangle pattern, how is the rotation parameter used?
+- How do you make sure the Super Pattern shows on screen?
 
 #### Test Data
 | Description  | Center X | Center Y| Offset| Height | Width | Count | Rotation |
