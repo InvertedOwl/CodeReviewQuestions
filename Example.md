@@ -5,7 +5,6 @@ Aim for 15 minutes.
 
 ---
 
-
 ## Task 1: Chessmate
 ### Describe Core Concepts
 
@@ -28,10 +27,10 @@ Aim for 15 minutes.
 > -  **Context:** Open code
 > -  **Coach Instruction:** Pick section of design document and ask the student to point to where the section is in the code
 
+<!-- Test student confused about this question -->
 - If you were asked to rotate between 3 colors instead of 2, what would need to change in your code to accomplish that?
 - Show me how you calculate the width and height of each rectangle.
 - Explain how you avoid using global variables in *chessboard\.py*
-
 
 #### Test Data
 | Description  | start_x| start_y| width| height |
@@ -40,10 +39,7 @@ Aim for 15 minutes.
 | Half Empty       | 50 | 50 | None | 300 |
 | Empty String | 100 | 100 | None | None    |
   
-
 ---
-
-  
 
 ## Task 2: Drawly Patterns
 ### Describe Core Concepts
@@ -56,12 +52,9 @@ Aim for 15 minutes.
 - For the rectangle and circle patterns, what does the offset parameter do?
 - What user input could break your code?
 
-
-  
-
 ### Describe Your Solution
 
-- How do you use the output of *get_distance_point*?
+- How do you use the output of the *get_distance_point* function?
 - For the rectangle pattern, how do you determine the rotation of each rectangle.
 - How do you choose a random color for each shape?
 
@@ -70,7 +63,9 @@ Aim for 15 minutes.
 > **Reviewer Info**
 > -  **Context:** Open code
 > -  **Coach Instruction:** Pick section of design document and ask the student to point to where the section is in the code
+<!-- good quesiton! -->
 - What does the program do if the Count is set to *0*
+<!-- Duplicate question -->
 - For the rectangle pattern, how is the rotation parameter used?
 - How do you make sure the Super Pattern shows on screen?
 
